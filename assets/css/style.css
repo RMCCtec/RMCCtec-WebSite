@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+}
+
+:root {
+    --normal-font: 400;
+    --bold-font: 600;
+    --bolder-font: 900;
+    --line-height: 1.7rem;
+    --transition: 0.4s ease-in;
+    --primary-color: #000;
+    --secondary-color: #fff;
+}
+
+body {
+    background-color: #CBB192;
+}
+
+.intro-text img {
+    width: 775px;
+    height: 428px;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    left: 629px;
+    top: 216px;
+}
+
+
+.intro-text h2 {
+    font-family: "Forum";
+    font-size: 33px;
+    width: 699px;
+    height: 44px;
+    left: 672px;
+    position: absolute;
+    top: 674px;
+}
+.wrapper {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 52px;
+    margin-left: 155px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 43rem;
+    font-size: 18px;
+}
+
+.nav-item {
+    margin-left: 5rem;
+}
+
+.nav-link {
+    font-weight: var(--bold-font);
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover {
+    color: #795a33;
+}
+
+.logo {
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    right: 151px;
+}
+
+.Cname {
+    color: #795a33;
+    font-size: 34px;
+    font-family: serif;
+}
+.tec {
+    color: #795a33;
+    font-size: 31px;
+    font-family: serif;
+}
+
+.btn {
+    padding: 1rem 2.5rem;
+    display: inline-block;
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+.saiba {
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 813px;
+    top: 738px;
+    width: 155px;
+    height: 49px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Roboto";
+}
+.saiba:hover {
+    color: #795a33;
+}
+.sub {
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 1097px;
+    top: 738px;
+    width: 155px;
+    height: 49px;
+    font-size: 14px;
+    text-align: justify;
+    font-family: "Roboto";
+}
+.sub:hover {
+    color: #795a33;
+}
+
+.etiqueta-1 {
+    border-style: solid;
+    width: 450px;
+    height: 198px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 64px;
+    top: 227px;
+    font-family: "Forum";
+    font-size: 18px;
+    line-height: var(--line-height);
+}
+.etiqueta-1 img{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    left: 269px;
+    top: -137px;
+    border-radius: 10px;
+}
+.etiqueta-1 p {
+    margin-left: 10px;
+    padding: 0.1rem;
+}
+
+.etiqueta-2{
+    border-style: solid;
+    width: 450px;
+    height: 198px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 64px;
+    top: 503px;
+    font-family: "Forum";
+    font-size: 18px;
+    line-height: var(--line-height);
+}
+.etiqueta-2 img{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    left: 269px;
+    top: -134px;
+    border-radius: 10px;
+}
+.etiqueta-2 p{
+    margin-left: 10px;
+    padding: 0.1rem; 
+}
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    height: 52px;
+}
+
+form .upperbar{
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 129px;
+    width: 1440px;
+    height: 70px;
+}
+.upperbar h2{
+    color: #000;
+    background-color: #CBB192;
+    position: relative;
+    left: 444px;
+    height: 70px;
+}
