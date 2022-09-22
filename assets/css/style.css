@@ -293,6 +293,10 @@ input[type=submit] {
     color: #fff;
 }
 
+input[type=submit]:hover {
+  color: #CBB192;
+}
+
 .criar-conta input{
     position: absolute;
     top: 836px;
