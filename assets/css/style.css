@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: #CBB192;
+    background-color:#CBB192;
 }
 
 .intro-text img {
@@ -59,7 +59,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 43rem;
+    margin-right: 17rem;
     font-size: 18px;
 }
 
@@ -73,7 +73,7 @@ ul {
     color: white;
 }
 .nav-link:hover {
-    color: #795a33;
+    color: #CBB192;
 }
 
 .logo {
@@ -85,12 +85,12 @@ ul {
 }
 
 .Cname {
-    color: #795a33;
+    color: #6e583d;
     font-size: 34px;
     font-family: serif;
 }
 .tec {
-    color: #795a33;
+    color: #6e583d;
     font-size: 31px;
     font-family: serif;
 }
@@ -116,7 +116,7 @@ ul {
     font-family: "Roboto";
 }
 .saiba:hover {
-    color: #795a33;
+    color: #CBB192;
 }
 .sub {
     background-color: var(--primary-color);
@@ -130,7 +130,7 @@ ul {
     font-family: "Roboto";
 }
 .sub:hover {
-    color: #795a33;
+    color: #CBB192;
 }
 
 .etiqueta-1 {
@@ -197,20 +197,112 @@ ul {
     height: 52px;
 }
 
-form .upperbar{
-    background: #000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    top: 129px;
-    width: 1440px;
+form {
+    position: relative;
+    top: 135px;
+}
+dl {
+    width: 100%;
+}
+dt {
+    height: 2rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 40px;
+    font-family: "Forum";
+    margin: auto;
+}
+.bar {
     height: 70px;
 }
-.upperbar h2{
-    color: #000;
-    background-color: #CBB192;
-    position: relative;
+dd {
+    width: 43%;
+    margin: -2rem;
+    background-color: #000;
+}
+dd:nth-of-type(odd),
+dd:nth-of-type(even) div {
+    float: left;
+}
+dd:nth-of-type(even),
+dd:nth-of-type(odd) div {
+    float: right;
+}
+
+.input-form {
+    position: absolute;
     left: 444px;
-    height: 70px;
+}
+
+.input-form p {
+    position: absolute;
+    top: 701px;
+    width: 580px;
+    height: 43px;
+    font-family: "Forum";
+    font-size: 30px;
+}
+
+.input-name p {
+    position: absolute;
+    top: 231px;
+    width: 291px;
+    height: 33px;
+    font-family: "Forum";
+    font-size: 30px;
+}
+
+.input-name input {
+    position: absolute;
+    top: 284px;
+    width: 582px;
+    height: 81px;
+    border-radius: 10px;
+    font-size: 21px;
+    padding-left: 1rem;
+}
+
+.input-passwd p {
+    position: absolute;
+    top: 408px;
+    width: 291px;
+    height: 33px;
+    font-size: 30px;
+    font-family: "Forum";
+}
+
+.input-passwd input {
+    position: absolute;
+    top: 461px;
+    width: 582px;
+    height: 81px;
+    border-radius: 10px;
+    font-size: 21px;
+    padding-left: 1rem;
+}
+
+input[type=submit] {
+    position: absolute;
+    top: 585px;
+    width: 582px;
+    height: 96px;
+    font-family: "Roboto";
+    font-size: 21px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.criar-conta input{
+    position: absolute;
+    top: 836px;
+    left: 1190px;
+    width: 156px;
+    height: 50px;
+}
+
+.criar-conta p {
+    position: absolute;
+    left: 980px;
+    top: 845px;
 }
