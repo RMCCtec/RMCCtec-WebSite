@@ -60,6 +60,9 @@ p{
     border-radius: 10px;
     outline: none;
     border: 1px solid #030303;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 21px;
 
     
 }
@@ -68,7 +71,6 @@ p{
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
     color: #030303;
-    padding-left: 15px;
 }
 
 .password{
@@ -89,6 +91,8 @@ p{
     border-radius: 10px;
     outline: none;
     border: 1px solid #030303;
+    padding-left: 15px;
+    font-size: 21px;
 
 }
 
@@ -96,7 +100,6 @@ p{
     font-size: 21px;
     font-family: 'Roboto', sans-serif;
     color: #030303;
-    padding-left: 15px;
 }
 
 .login{
@@ -108,6 +111,12 @@ p{
     background: #030303;
     font-size: 21px;
     color: #ffffff;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: #111;
+    transition: 0.5s all ease;
 }
 
 .esqueceu{
@@ -145,6 +154,12 @@ p{
     background: #030303;
     color: #ffffff;
     border: 1px solid #020202;
+    cursor: pointer;
+}
+
+.create:hover{
+    background-color: #111;
+    transition: 0.5s all ease;
 }
 
 
